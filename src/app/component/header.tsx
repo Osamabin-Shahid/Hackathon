@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 
 const Header = () => {
   return (
@@ -49,11 +51,14 @@ const Header = () => {
               id="Sb"
               placeholder="Search..."
             />
-            <img
-              src="/Handbag.png"
-              alt="Cart"
-              className="h-6 w-6 md:h-[24px] md:w-[24px]"
-            />
+            <Image 
+  src="/Handbag.png" 
+  alt="Cart" 
+  width={24} 
+  height={24} 
+  className="h-6 w-6 md:h-[24px] md:w-[24px]"
+/>
+
           </div>
         </div>
       </div>
