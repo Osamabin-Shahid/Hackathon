@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        Poppins: ['Poppins']
+        Poppins: ['Poppins'],
+        Helvetica: ['Helvetica'],
+        Inter: ['Inter','sans-serif'],
       },
 
       backgroundImage: {
