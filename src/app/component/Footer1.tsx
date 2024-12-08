@@ -20,8 +20,7 @@ const Footer1 = () => {
             <span className="text-[#FF9F0D]">St</span>ill Need Our Support
           </h2>
           <p className="text-sm md:text-base mt-4">
-            Don&#39;t wait; make a smart & logical quote here. It&#39;s pretty
-            easy.
+            Dont wait; make a smart & logical quote here. Its pretty easy.
           </p>
         </div>
 
@@ -61,7 +60,9 @@ const Footer1 = () => {
               </div>
               <div>
                 <h3 className="text-white text-base">Opening Hours</h3>
-                <p className="text-sm text-gray-400">Mon - Sat (8:00 - 18:00)</p>
+                <p className="text-sm text-gray-400">
+                  Mon - Sat (8:00 - 18:00)
+                </p>
                 <p className="text-sm text-gray-400">Sunday - Closed</p>
               </div>
             </div>
@@ -69,7 +70,9 @@ const Footer1 = () => {
 
           {/* Useful Links */}
           <div>
-            <h2 className="mb-6 text-xl font-semibold uppercase">Useful Links</h2>
+            <h2 className="mb-6 text-xl font-semibold uppercase">
+              Useful Links
+            </h2>
             <ul className="text-sm text-gray-400 space-y-4">
               {["About", "News", "Partner", "Team", "Menu", "Contact"].map(
                 (link) => (
@@ -106,12 +109,26 @@ const Footer1 = () => {
 
           {/* Recent Posts */}
           <div>
-            <h2 className="mb-6 text-xl font-semibold uppercase">Recent Posts</h2>
+            <h2 className="mb-6 text-xl font-semibold uppercase">
+              Recent Posts
+            </h2>
             <ul className="space-y-4">
               {[
-                { src: "/Mask group (2).png", date: "20 Feb 2022", title: "Keep Your Business" },
-                { src: "/Food1.png", date: "20 Feb 2022", title: "Keep Your Business" },
-                { src: "/Mask Group (1).png", date: "20 Feb 2022", title: "Keep Your Business" },
+                {
+                  src: "/Mask group (2).png",
+                  date: "20 Feb 2022",
+                  title: "Keep Your Business",
+                },
+                {
+                  src: "/Food1.png",
+                  date: "20 Feb 2022",
+                  title: "Keep Your Business",
+                },
+                {
+                  src: "/Mask Group (1).png",
+                  date: "20 Feb 2022",
+                  title: "Keep Your Business",
+                },
               ].map((post, index) => (
                 <li key={index} className="flex gap-4">
                   <Image

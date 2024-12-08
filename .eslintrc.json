@@ -1,3 +1,10 @@
+// {
+//   "extends": "next/core-web-vitals"
+// }
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react/no-unescaped-entities": "off", // Example: Disable warnings for unescaped entities
+    "react/react-in-jsx-scope": "off"    // Example: Not needed for Next.js
+  }
 }
